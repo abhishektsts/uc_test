@@ -1,0 +1,40 @@
+uc_worldline.worldline_offline:
+  path: '/admin/config/worldline/offlinepayment'
+  defaults:
+    _form: '\Drupal\uc_worldline\Form\WorldlineOffline'
+    _title: 'Worldline Offline Verification'
+  requirements:
+    _permission: 'access content'
+
+uc_worldline.worldline_reconcilation:
+  path: '/admin/config/worldline/worldlinereconcilation'
+  defaults:
+    _form: '\Drupal\uc_worldline\Form\WorldlineReconcilation'
+    _title: 'Worldline Reconcilation'
+  requirements:
+    _permission: 'access content'
+
+# Callback functions for worldline Payment.
+uc_worldline.process_payment:
+  path: '/uc_worldline/worldlineRequest'
+  defaults:
+    _controller: '\Drupal\uc_worldline\Controller\WorldlineController::worldlineRequest'
+    _title: 'worldline payment process'
+  requirements:
+    _permission: 'access content'
+
+uc_worldline.payment_response:
+  path: '/uc_worldline/worldlineResponse'
+  defaults:
+    _controller: '\Drupal\uc_worldline\Controller\WorldlineController::worldlineResponse'
+    _title: 'worldline payment response'
+  requirements:
+    _permission: 'access content'
+
+uc_worldline.s2s_response:
+  path: '/uc_worldline/s2s_request'
+  defaults:
+    _controller: '\Drupal\uc_worldline\Controller\WorldlineController::s2s_request'
+    _title: 'worldline payment response'
+  requirements:
+    _permission: 'access content'

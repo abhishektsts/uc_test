@@ -1,0 +1,11 @@
+uc_worldline.admin.config:
+  title: 'worldline module'
+  base_route_name: uc_worldline.admin.config
+  names:
+    - uc_worldline.settings
+
+uc_worldline.reconcilation.config:
+  title: 'worldline module'
+  base_route_name: uc_worldline.reconcilation.config
+  names:
+    - uc_worldline.settings

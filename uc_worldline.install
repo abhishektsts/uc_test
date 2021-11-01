@@ -1,0 +1,26 @@
+<?php 
+function uc_worldline_schema(){
+    $schema['worldlinedetails'] = array(
+        'description' => 'The table for storing the products data.',
+        'fields' => array(
+            'id' => array(
+                'description' => 'The primary identifier for worldline details.',
+                'type' => 'serial',
+                'not null' => TRUE,
+                'unsigned' => TRUE,
+            ),
+            'orderid' => array(
+                'description' => 'Order Id.',
+                'type' => 'int',
+                'not null' => TRUE,
+            ),
+            'merchantid' => array(
+                'description' => 'Merchant Id.',
+                'type' => 'text',
+                'not null' => TRUE,
+            ),
+        ),
+        'primary key' => array('id'),
+    );
+    return $schema;
+}

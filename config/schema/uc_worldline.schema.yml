@@ -1,0 +1,91 @@
+# Schema for the configuration files of the uc_worldline module.
+uc_worldline.settings:
+  type: config_object
+  label: 'worldline payment method configuration settings'
+  mapping:
+    worldline_SALT:
+      type: string
+      label: ''
+    worldline_merchant_code:
+      type: string
+      label: ''
+    webservice_locator:
+      type: string
+      label: 'Payment Typet'
+    worldline_merchant_scheme_code:
+      type: string
+      label: ''
+    worldline_success_msg:
+      type: string
+      label: 'Success Message'
+    worldline_decline_msg:
+      type: string
+      label: 'Decline Message'
+    merchant_logo_url:
+      type: uri
+      label: 'Merchant Logo URL'
+    PRIMARY_COLOR_CODE:
+      type: string
+      label: 'Primary Color Code'
+    SECONDARY_COLOR_CODE:
+      type: string
+      label: 'SECONDARY Color Code'
+    BUTTON_COLOR_CODE_1:
+      type: string
+      label: 'Button Color Code 1'
+    BUTTON_COLOR_CODE_2:
+      type: string
+      label: 'Button Color Code 2'
+    worldline_payment_mode:
+      type: string
+      label: 'Payment Mode'
+    enableNewWindowFlow:
+      type: string
+      label: 'Enable new window flow'
+    enableExpressPay:
+      type: string
+      label: 'Enable Express Pay'
+    separateCardMode:
+      type: string
+      label: 'Separate Card Mode'
+    merchantMsg:
+      type: string
+      label: 'Merchant Message'
+    disclaimerMsg:
+      type: string
+      label: 'Disclaimer Message'
+    enableMerTxnDetails:
+      type: string
+      label: 'Merchant Transaction Details'
+    disclaimerMsg:
+      type: string
+      label: 'Disclaimer Message'
+    enableMerTxnDetails:
+      type: string
+      label: 'Merchant Transaction Details'
+    enableInstrumentDeRegistration:
+      type: string
+      label: 'Enable InstrumentDeRegistration'
+    hideSavedInstruments:
+      type: string
+      label: 'Hide Saved Instruments'
+    hideSavedInstruments:
+      type: string
+      label: 'Hide Saved Instruments'
+    saveInstrument:
+      type: string
+      label: 'Save Instrument'
+    txnType:
+      type: string
+      label: 'Transaction Type'
+    payment_mode_order:
+      type: string
+      label: 'Payment Mode Order'
+    handle_response_on_popup:
+      type: string
+      label: 'Display Transaction Message on Popup'
+    checkoutElement:
+      type: string
+      label: 'Embed Payment Gateway On Page'
+
+

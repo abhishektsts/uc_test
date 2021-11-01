@@ -1,0 +1,9 @@
+uc_worldline.admin.config:
+  route_name: uc_worldline.admin.config
+  title: Settings
+  base_route: uc_worldline.admin.config
+
+uc_worldline.reconcilation.config:
+  route_name: uc_worldline.reconcilation.config
+  title: Settings
+  base_route: uc_worldline.reconcilation.config

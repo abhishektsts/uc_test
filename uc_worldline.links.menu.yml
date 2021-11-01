@@ -1,0 +1,13 @@
+entity.uc_worldline.admin:
+  title: 'worldline offline Verification'
+  description: 'worldline offline verification.'
+  route_name: uc_worldline.worldline_offline
+  parent: system.admin_config_system
+  weight: 100
+
+entity.uc_worldline.reconcilation:
+  title: 'worldline Reconcilation'
+  description: 'Reconcilation'
+  route_name: uc_worldline.worldline_reconcilation
+  parent: system.admin_config_system
+  weight: 100
